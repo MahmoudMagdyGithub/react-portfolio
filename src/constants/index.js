@@ -17,9 +17,9 @@ export const EXPERIENCES = [
            
                   We use a monorepo with Lerna.js to manage our Chrome extension, email templates, task management, and calendar integration. Lerna simplifies dependency management and version control. This setup enhances integration and maintenance efficiency.`,
     technologies: [
-      "Javascript",
       "React.js",
       "Next.js",
+      "TypeScript",
       "Slate.js",
       "Segment",
       "Zustand",
@@ -46,6 +46,7 @@ export const PROJECTS = [
     technologies: [
       "React.js",
       "Next.js",
+      "TypeScript",
       "Slate.js",
       "Segment",
       "Zustand",
@@ -65,6 +66,7 @@ export const PROJECTS = [
     technologies: [
       "Next.js",
       "Slate.js",
+      "TypeScript",
       "Segment",
       "Zustand",
       "TanStack Query",
@@ -82,6 +84,7 @@ export const PROJECTS = [
     technologies: [
       "React.js",
       "Slate.js",
+      "TypeScript",
       "Segment",
       "Zustand",
       "TanStack Query",
