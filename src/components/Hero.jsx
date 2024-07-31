@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { HERO_CONTENT } from "../constants";
 
-import profilePicture from "../assets/kevinRushProfile.png";
+import profilePicture from "../assets/kevinRushProfile.jpeg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -55,7 +55,10 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePicture}
+              width="400px"
+              height="300px"
               alt="Mahmoud Magdy"
+              className="rounded-full"
             />
           </div>
         </div>
