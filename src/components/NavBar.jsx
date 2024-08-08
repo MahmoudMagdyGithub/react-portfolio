@@ -15,10 +15,14 @@ const NavBar = () => {
       </div>
 
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <FaGithub
+          style={{ cursor: "pointer" }}
+          onClick={() =>
+            window.open("https://github.com/MahmoudMagdyGithub", "_blank")
+          }
+        />
+
+        {/* <FaLinkedin /> */}
       </div>
     </nav>
   );

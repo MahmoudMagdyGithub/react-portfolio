@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     year: "2022 - 2024",
     role: "Front-end Developer",
     company: "Nomo",
-    description: `We've developed a Gmail Chrome extension that enhances your email experience by allowing effortless generation and summarization of emails. Our web application includes a feature to store email templates, enabling easy reuse whenever needed. Additionally, the Tasks feature leverages AI to create, update, and delete tasks based on your input, handling multiple CRUD operations seamlessly. We also offer a Calendar feature that fully integrates with Google Calendar, making it simple to schedule and reschedule meetings with the help of AI.
+    description: `We've developed a Gmail Chrome extension that enhances your email experience by allowing effortless generation and summarization of emails. Our web application includes a feature to store email templates, enabling easy reuse whenever needed. Additionally, the Tasks feature leverages AI to create, update, and delete tasks based on your input, handling multiple CRUD operations at once. We also offer a Calendar feature that fully integrates with Google Calendar, making it simple to schedule and reschedule meetings with the help of AI.
            
                   We use a monorepo with Lerna.js to manage our Chrome extension, email templates, task management, and calendar integration. Lerna simplifies dependency management and version control. This setup enhances integration and maintenance efficiency.`,
     technologies: [
