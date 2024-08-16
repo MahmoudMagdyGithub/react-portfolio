@@ -28,7 +28,7 @@ const Projects = () => {
                 height={150}
                 src={project.image}
                 alt={project.title}
-                className="mb-6 rounded"
+                className="mb-6 rounded max-md:w-full"
               />
             </motion.div>
 
