@@ -9,11 +9,11 @@
 }
 
 @layer utilities {
-  .card-wrapper {
+  .logo-wrapper {
     @apply relative overflow-hidden rounded-2xl bg-gradient-to-b from-slate-700 to-slate-800;
   }
 
-  .card-wrapper::before {
+  .logo-wrapper::before {
     background: conic-gradient(
       rgba(244, 114, 182) 0deg,
       rgba(192, 132, 252) 0deg,
@@ -23,8 +23,7 @@
     @apply absolute left-[-25%] top-[-25%] h-[150%] w-[150%] animate-border-spin content-[''];
   }
 
-  /* Body */
-  .card-content {
+  .logo-content {
     @apply absolute left-[1px] top-[1px] h-[calc(100%-2px)] w-[calc(100%-2px)] rounded-2xl bg-gradient-to-b from-slate-800 to-slate-900;
   }
 }

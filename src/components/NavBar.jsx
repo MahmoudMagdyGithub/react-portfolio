@@ -7,8 +7,8 @@ const NavBar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex w-[68px] h-[68px] rounded-2xl ml-8 flex-col items-center justify-center bg-slate-950 text-white">
-        <div className="card-wrapper h-[68px] w-[68px] flex align-center">
-          <div className="card-content flex items-center justify-center text-xs">
+        <div className="logo-wrapper h-[68px] w-[68px] flex align-center">
+          <div className="logo-content flex items-center justify-center text-xs">
             <div className="text-2xl">MM</div>
           </div>
         </div>
