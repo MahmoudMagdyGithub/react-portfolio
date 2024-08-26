@@ -22,7 +22,15 @@ const NavBar = () => {
           }
         />
 
-        {/* <FaLinkedin /> */}
+        <FaLinkedin
+          style={{ cursor: "pointer" }}
+          onClick={() =>
+            window.open(
+              "https://www.linkedin.com/in/mahmoud-magdy-developer/",
+              "_blank"
+            )
+          }
+        />
       </div>
     </nav>
   );
