@@ -4,9 +4,9 @@ import NomoWebAppImage from "../assets/projects/nomo-web-app.png";
 import NomoMailImage from "../assets/projects/nomo-mail.png";
 
 export const HERO_CONTENT = `
-I'm a front-end developer with a passion for building strong and scalable web applications. Over the past three years, I've gained hands-on experience with technologies like React and Next.js. My aim is to use my skills to create innovative solutions that help businesses grow and provide great experiences for users.`;
+I'm a front-end developer passionate about crafting scalable, high-performing web applications. With three years of hands-on experience using React and Next.js, I focus on creating innovative solutions that support business growth and deliver outstanding user experiences.`;
 
-export const ABOUT_TEXT = `I'm a passionate front-end developer with more than 2 years of professional experience, specializing in creating efficient and user-friendly web applications. My expertise includes working with technologies like React.js, Next.js, Tailwind CSS and Material UI. I got into web development out of curiosity about how things work, and it quickly turned into a fulfilling career. I love learning and adapting to new challenges, which keeps me motivated and engaged. I thrive in team settings, where I can collaborate and problem-solve to deliver top-notch solutions. When I'm not coding, I enjoy doing sports and exploring the latest in technology.`;
+export const ABOUT_TEXT = `I'm a front-end developer with 3 years of experience, specializing in creating responsive and engaging web apps. I primarily work with React.js, Next.js, Tailwind CSS, and Material UI. My journey into web development began out of curiosity about how websites function, and it quickly grew into a fulfilling career. I'm passionate about learning new technologies, taking on challenges, and collaborating with teams to solve problems creatively. When I’m not coding, I enjoy staying active through sports and exploring the latest tech trends.`;
 
 export const EXPERIENCES = [
   {
@@ -25,6 +25,24 @@ export const EXPERIENCES = [
       "Zustand",
       "TanStack Query",
       "Lerna",
+      "Sass",
+      "Material-UI",
+    ],
+  },
+  {
+    year: "2021 - 2022",
+    role: "Junior Front-end Developer",
+    company: "WeXcute",
+    description: `Contributed to the development of responsive components
+ using HTML, CSS, and JavaScript, improving the cross-device
+ user experience.
+ Implemented features using the JavaScript library (React)
+ under the guidance of senior developers, gaining hands-on
+ experience with modern web development tools.`,
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "TanStack Query",
       "Sass",
       "Material-UI",
     ],
