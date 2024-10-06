@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 
 import { CONTACT } from "../constants";
 
+import cv from "../assets/my-cv.pdf";
+
 const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">
@@ -17,6 +19,12 @@ const Contact = () => {
       <div className="text-center tracking-lighter">
         <a href="#" className="border-b text-purple-200">
           {CONTACT.email}
+        </a>
+      </div>
+
+      <div className="flex justify-center items-center mt-3">
+        <a href={cv} download="mahmoud-resume" className="my-resume-animation">
+          Download my resume
         </a>
       </div>
     </div>
