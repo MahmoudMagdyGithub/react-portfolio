@@ -24,7 +24,7 @@ const Contact = () => {
 
       <div className="flex justify-center items-center mt-3">
         <a href={cv} download="mahmoud-resume" className="my-resume-animation">
-          Download my resume
+          Check my resume
         </a>
       </div>
     </div>
