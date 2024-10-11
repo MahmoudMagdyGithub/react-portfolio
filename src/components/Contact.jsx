@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { CONTACT } from "../constants";
 
-import cv from "../assets/my-cv.pdf";
+import cv from "../../public/my-cv.pdf";
 
 const Contact = () => {
   return (
